@@ -1,0 +1,292 @@
+body,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Microsoft JhengHei,calibri,arial,helvetica,sans-serif;
+}
+
+body {
+}
+
+.skin-blue .main-header .navbar,.sidebar-mini.sidebar-collapse .main-header .navbar {
+    background-color: #fff;
+    margin: 0;
+}
+
+.skin-blue .sidebar a {
+    color:#fff;
+}
+.skin-blue .main-header .navbar img,.sidebar-mini.sidebar-collapse .main-header .navbar img {
+    margin: 5px 10px;
+    height: 40px;
+    width: auto;
+}
+.skin-blue .main-header .navbar span,.sidebar-mini.sidebar-collapse .main-header .navbar span {
+    color:  #1c92d2;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 40px;
+    text-align:center;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #1D92D2 ;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    background-color: #1c92d2;
+}
+.btn-app {
+  min-height: 90px;
+  height: 90px;
+  padding: 22.5px 5px;
+}
+
+@media screen and (min-width:400px) and (max-width: 640px) {
+  .btn-app {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn-app {
+    width: 29%;
+  }
+}
+
+.btn-app>.fal {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.circle-area {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.circle-area.circle-small {
+    padding-top: 20px;
+    width: 100px;
+}
+
+.circle-text {
+    display: table-cell;
+    height: 120px; /*change this and the width
+    for the size of your initial circle*/
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    /*change this for font-size and font-family*/
+    }
+.circle-text label {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom:0;
+}
+    .circle-small > div {
+        height: 100px; /*change this and the width
+        for the size of your initial circle*/
+        width: 100px;
+        }
+
+    .circle-blue {
+        border: 2px solid #84AFBE;
+        background-color: #fff;
+        color: #333;
+    }
+
+    .circle-yellow {
+        border: 2px solid #F9EA96;
+        background-color: #fff;
+        color: #333;
+    }
+
+
+.table-bordered>thead>tr.bg-custom-blue>th, .table-bordered>tbody>tr.bg-custom-blue>th, .table-bordered>tfoot>tr.bg-custom-blue>th, .table-bordered>thead>tr.bg-custom-blue>td, .table-bordered>tbody>tr.bg-custom-blue>td, .table-bordered>tfoot>tr.bg-custom-blue>td {
+    background-color: #1c92d2;
+    color: #fff;
+}
+
+.table>tbody>tr> .table-valign-center {
+    vertical-align: middle;
+}
+
+.bg-bs-yellow  {
+    background-color: #EEC52A;
+    color : #333;
+}
+
+.bg-bs-red {
+    background-color: #D37057;
+    color:#fff;
+}
+
+.bg-bs-blue {
+background-color: #00AFA6;
+color :#fff;
+}
+
+.bg-bs-black {
+    background-color: #464B54;
+    color:#fff;
+}
+
+.bg-bs-green {
+    background-color: #AADCEF;
+    color:#333;
+}
+
+.showTag {
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.table-block-view>tbody>tr>td
+{
+    padding: 0px;
+}
+
+.value-area p {
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.table-info>tbody>tr>th {
+    width: 25%;
+    text-align: right;
+}
+
+.table-info>tbody>tr>td {
+    width: 75%;
+}
+
+.content-wrapper {
+  background-color: #F5F5F5;
+}
+
+.box .box-header {
+  background-color: #F7F8FA;
+}
+
+.bg-custom-map-blue {
+  color: #fff;
+  background-color: #1D92D2;
+}
+
+#MapBox .showMap {
+  padding-right: 0px;
+}
+
+#MapBox .showInfo {
+  padding-left: 0px;
+}
+
+.btn-info {
+  background-color: #00C0EF;
+  border-color: #757E90;
+}
+
+.card-info .title {
+  margin-bottom: 5px;
+}
+.card-info .name {
+  font-size: 14px;
+  font-weight: bold;
+}
+.card-info .email {
+  font-size: 13px;
+}
+
+.box-header .box-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content-header>h1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.UnitChange {
+  padding-right: 5px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.downBtnArea {
+  line-height: 90px;
+}
+
+.font45 {
+  font-size: 45px;
+}
+
+.downBtn {
+  background-color: #00C0EF;
+}
+
+.showIcon {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.showInrange {
+  background-image: url(../img/icon_inrange.png);
+  background-position-x: 2px;
+}
+
+.showOver {
+  background-image: url(../img/icon_over.png);
+  background-position: 2px 1px;
+  background-position-x: 2px;
+  background-position-y: 1px;
+}
+
+.showUnder {
+  background-image: url(../img/icon_under.png);
+  background-position: 2px 1px;
+  background-position-x: 2px;
+  background-position-y: 1px;
+}
+
+.showC3 {
+  background-image: url(../img/icon_C3.png);
+}
+
+.showGA1 {
+  background-image: url(../img/icon_GA1.png);
+}
+
+.iconInfoArea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.iconInfo {
+  padding: 5px 5px 5px 30px;
+  line-height: 30px;
+  background-repeat: no-repeat;
+  background-position-x: 2px;
+  background-position-y: 2px;
+}
+
+.box .box-header.backcolorWhite {
+  background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px){
+  .box-header>.box-tools {
+    position: relative;
+  }
+}
